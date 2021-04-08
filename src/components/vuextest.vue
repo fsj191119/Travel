@@ -13,7 +13,7 @@ export default {
         
     },
     mounted(){
-        
+        console.log(222)
     },
     methods:{
         showc(e){
