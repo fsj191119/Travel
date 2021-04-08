@@ -9,7 +9,11 @@ import './plugins/vantui.js'  //vant
 import './quasar'
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
+import total from './plugins/comment.js'
+import myvuex from './plugins/vuetest.js'
 Vue.use(Antd);
+Vue.use(total)
+Vue.use(myvuex)
 Vue.config.productionTip = false
 
 new Vue({
